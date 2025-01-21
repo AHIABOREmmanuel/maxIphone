@@ -4,3 +4,21 @@
     object-fit: cover; 
   }
   
+
+  .frost-effect {
+    background: rgba(255, 255, 255, 0.1); /* Transparence pour l'effet givré */
+    backdrop-filter: blur(10px); /* Effet flou pour l'arrière-plan */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilité Safari */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Bordure translucide */
+    color: white;
+    border-radius: 0.5rem; /* Coins arrondis pour un design élégant */
+}
+
+.frost-effect p {
+    font-size: 1.2rem; /* Taille du texte légèrement augmentée */
+    font-weight: bold;
+    color: white; /* Couleur du texte */
+    text-shadow: 
+      2px 2px 4px rgba(0, 0, 0, 0.7), /* Ombre sombre pour le contour */
+      0px 0px 10px rgba(255, 255, 255, 0.5); /* Lumière douce autour du texte */
+}
