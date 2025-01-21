@@ -1,0 +1,48 @@
+<div class="container px-4 px-lg-5">
+    <!-- Heading Row -->
+    <div class="row gx-4 gx-lg-5 align-items-center my-5">
+      <div class="col-lg-7">
+        <img
+          class="img-fluid rounded mb-4 mb-lg-0"
+          src="assets/Iphone.jpg"
+          alt="Header Image"
+        />
+      </div>
+      <div class="col-lg-5">
+        <h1 class="font-weight-light">Votre Partenaire iPhone</h1>
+        <p>
+          Vente, réparation et deals d'iPhones garantis. Nous combinons expertise
+          et confiance pour répondre à vos besoins.
+        </p>
+        <a class="btn btn-success" href="https://wa.me/22891983961" target="_blank">
+            <i class="fab fa-whatsapp"></i> Contactez-nous sur WhatsApp
+          </a>
+      </div>
+    </div>
+  
+    <!-- Call to Action -->
+    <div class="card text-white bg-primary my-5 py-4 text-center">
+      <div class="card-body">
+        <p class="text-white m-0">
+          Découvrez nos offres exclusives et profitez des meilleurs deals sur les iPhones !
+        </p>
+      </div>
+    </div>
+  
+    <!-- Content Row -->
+    <div class="row gx-4 gx-lg-5">
+      <div class="col-md-4 mb-5" *ngFor="let card of cards">
+        <div class="card h-100">
+          <img class="card-img-top" [src]="card.image" alt="Card Image" />
+          <div class="card-body">
+            <h2 class="card-title">{{ card.title }}</h2>
+            <p class="card-text">{{ card.text }}</p>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-primary btn-sm" href="https://wa.me/22891983961">Nous contacter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
