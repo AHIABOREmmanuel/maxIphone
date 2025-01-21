@@ -1,34 +1,56 @@
 <div class="container px-4 px-lg-5">
     <!-- Heading Row -->
-    <div class="row gx-4 gx-lg-5 align-items-center my-5">
-      <div class="col-lg-7">
-        <img
-          class="img-fluid rounded mb-4 mb-lg-0"
-          src="assets/maxiphone.jpg"
-          alt="Header Image"
-        />
-      </div>
-      <div class="col-lg-5">
-        <h1 class="font-weight-light">Votre partenaire iPhone</h1>
-        <p>
-          Vente, réparation et deals d'iPhones garantis. Chez Max-iPhone, nous offrons des services de haute qualité 
-          adaptés à vos besoins. Que vous cherchiez à acheter le dernier modèle, à réparer un appareil endommagé ou 
-          à profiter des meilleurs deals pour un iPhone reconditionné, nous sommes là pour vous.  
-          <br><br>
-          Faites confiance à notre expertise pour obtenir des conseils personnalisés et une assistance rapide.  
-          Notre équipe expérimentée utilise uniquement des pièces d'origine pour garantir la fiabilité de chaque réparation.  
-          Nous proposons également des offres attractives et des plans flexibles pour tous les budgets.  
-          <br><br>
-          Rejoignez les centaines de clients satisfaits qui nous ont choisis pour leur passion pour la qualité et leur 
-          engagement envers l'excellence. Découvrez pourquoi nous sommes le partenaire de choix pour tous vos besoins liés à l'iPhone !
-        </p>
-        
-        <a class="btn btn-success" href="https://wa.me/22891983961" target="_blank">
-            <i class="fab fa-whatsapp"></i> Contactez-nous sur WhatsApp
-          </a>
+    <div class="container px-4 px-lg-5">
+      <!-- Slider Section -->
+      <div id="iphoneCarousel" class="carousel slide my-5" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#iphoneCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#iphoneCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#iphoneCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    
+        <!-- Slides -->
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img src="assets/maxiphone.jpg" class="d-block w-100 img-fluid rounded" alt="Slide 1">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="font-weight-light">Votre partenaire iPhone</h1>
+              <p>Max-iPhone est votre solution unique pour tout ce qui concerne l'iPhone : achat, réparation, et deals imbattables.</p>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img src="assets/maxiphone.jpg" class="d-block w-100 img-fluid rounded" alt="Slide 2">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="font-weight-light">Réparations professionnelles</h1>
+              <p>Nos experts redonnent vie à vos appareils grâce à des services rapides et fiables.</p>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img src="assets/maxiphone.jpg" class="d-block w-100 img-fluid rounded" alt="Slide 3">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="font-weight-light">Les meilleurs deals</h1>
+              <p>Découvrez nos offres exclusives et profitez des meilleurs prix sur les iPhones.</p>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Navigation Arrows -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#iphoneCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Précédent</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#iphoneCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Suivant</span>
+        </button>
       </div>
     </div>
-  
+    
+
 <!-- Call to Action -->
 <div class="card my-5 py-4 text-center frost-effect">
     <div class="card-body">
