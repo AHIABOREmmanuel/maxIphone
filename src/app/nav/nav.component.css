@@ -1,0 +1,22 @@
+.navbar {
+    background: rgba(255, 255, 255, 0.1); /* Transparence givrée */
+    backdrop-filter: blur(10px); /* Flou en arrière-plan */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilité Safari */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Bordure subtile */
+  }
+  
+  .navbar .nav-link {
+    color: white !important;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Ombre pour lisibilité */
+  }
+  
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Ombre pour lisibilité */
+  }
+
+  

@@ -1,53 +1,18 @@
-<nav class="navbar navbar-expand-lg">
-    <div class="container px-5">
-      <a class="navbar-brand">MAX IPHONE BUSINESS</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container px-5">
+    <a class="navbar-brand">MAX IPHONE BUSINESS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/#carouselSection" routerLinkActive="active">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/#servicesSection" routerLinkActive="active">Services</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-  
-  <style>
-    .navbar {
-      background: rgba(255, 255, 255, 0.1); /* Transparence givrée */
-      backdrop-filter: blur(10px); /* Flou en arrière-plan */
-      -webkit-backdrop-filter: blur(10px); /* Compatibilité Safari */
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Bordure subtile */
-    }
-    
-    .navbar .nav-link {
-      color: white !important;
-      font-weight: bold;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Ombre pour lisibilité */
-    }
-    
-    .navbar .nav-link:hover {
-      color: #d1eaff !important; /* Bleu clair au survol */
-    }
-    
-    .navbar-brand {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: white;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Ombre pour lisibilité */
-    }
-  </style>
-  
+  </div>
+</nav>
