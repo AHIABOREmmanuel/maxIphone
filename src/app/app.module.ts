@@ -6,17 +6,24 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
+import { PayComponent } from './body/pay/pay.component';
+// import { FedaPayCheckoutModule } from 'fedapay-angular';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     BodyComponent,
-    FooterComponent
+    FooterComponent,
+    PayComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // FedaPayCheckoutModule.forRoot({ public_key: 'pk_sandbox_XXXXXX' })
+    
+    
   ],
   providers: [
     provideClientHydration()
